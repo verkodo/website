@@ -24,10 +24,8 @@ python3 -m http.server 8091
 GitHub Pages via `.github/workflows/pages.yml` on every push to `main`. One-time setup: Repo → Settings → Pages →
 Source: **GitHub Actions**.
 
-Until the domain verkodo.org points here, the site is at https://verkodo.github.io/website/ and `404.html` uses
-paths below `/website/`. **OPEN:** the domain. Once it points here: set it as custom domain, **Enforce HTTPS**, turn
-the paths in `404.html` back to `/`, and add `canonical`, `og:url` and an absolute `og:image` to `index.html` and
-`Canonical:` to `.well-known/security.txt`.
+The site is at https://verkodo.org (custom domain of this repository's Pages, HTTPS enforced); the documentation
+and the web editor are at https://verkodo.dev, the knowledge (sciaro) at https://sciaro.verkodo.org.
 
 ## Licence
 
